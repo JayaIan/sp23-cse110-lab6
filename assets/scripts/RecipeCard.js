@@ -157,31 +157,31 @@ class RecipeCard extends HTMLElement {
     const imageTwo = document.createElement("img");
     switch (data.rating) {
       case 0:
-        imageTwo.setAttribute("src", "/assets/images/icons/0-star.svg");
+        imageTwo.setAttribute("src", "assets/images/icons/0-star.svg");
         imageOne.setAttribute("alt", "0 stars");
         break;
       case 1:
-        imageTwo.setAttribute("src", "/assets/images/icons/1-star.svg");
+        imageTwo.setAttribute("src", "assets/images/icons/1-star.svg");
         imageOne.setAttribute("alt", "1 stars");
         break;
       case 2:
-        imageTwo.setAttribute("src", "/assets/images/icons/2-star.svg");
+        imageTwo.setAttribute("src", "assets/images/icons/2-star.svg");
         imageOne.setAttribute("alt", "2 stars");
         break;
       case 3:
-        imageTwo.setAttribute("src", "/assets/images/icons/3-star.svg");
+        imageTwo.setAttribute("src", "assets/images/icons/3-star.svg");
         imageOne.setAttribute("alt", "3 stars");
         break;  
       case 4:
-        imageTwo.setAttribute("src", "/assets/images/icons/4-star.svg");
+        imageTwo.setAttribute("src", "assets/images/icons/4-star.svg");
         imageOne.setAttribute("alt", "4 stars");
         break; 
       case 5:
-        imageTwo.setAttribute("src", "/assets/images/icons/5-star.svg");
+        imageTwo.setAttribute("src", "assets/images/icons/5-star.svg");
         imageOne.setAttribute("alt", "5 stars");
         break;  
       default:
-        imageTwo.setAttribute("src", "/assets/images/icons/0-star.svg");
+        imageTwo.setAttribute("src", "assets/images/icons/0-star.svg");
         imageOne.setAttribute("alt", "0 stars");
     }
 
